@@ -19,9 +19,8 @@
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.1.11" level="project" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.1.11" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.24" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:jul-to-slf4j:1.7.24" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:log4j-over-slf4j:1.7.24" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.yaml:snakeyaml:1.17" level="project" />
+    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.17" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:1.5.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.11" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:8.5.11" level="project" />
@@ -57,5 +56,23 @@
     <orderEntry type="library" scope="TEST" name="Maven: net.minidev:accessors-smart:1.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.ow2.asm:asm:5.0.3" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.24" level="project" />
+    <orderEntry type="library" name="Maven: io.fabric8:spring-cloud-starter-kubernetes:0.0.16" level="project" />
+    <orderEntry type="library" name="Maven: io.fabric8:spring-cloud-kubernetes-core:0.0.16" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-actuator:1.5.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="library" name="Maven: io.fabric8:spring-cloud-kubernetes-discovery:0.0.16" level="project" />
+    <orderEntry type="library" name="Maven: io.fabric8:openshift-client:1.4.10" level="project" />
+    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-client:1.4.10" level="project" />
+    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model:1.0.53" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.8.7" level="project" />
+    <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp:3.4.1" level="project" />
+    <orderEntry type="library" name="Maven: com.squareup.okio:okio:1.9.0" level="project" />
+    <orderEntry type="library" name="Maven: com.squareup.okhttp3:logging-interceptor:3.4.1" level="project" />
+    <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp-ws:3.4.1" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:jul-to-slf4j:1.7.24" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.8.7" level="project" />
+    <orderEntry type="library" name="Maven: io.fabric8:zjsonpatch:0.2.3" level="project" />
+    <orderEntry type="library" name="Maven: com.github.mifmif:generex:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: dk.brics.automaton:automaton:1.11-8" level="project" />
   </component>
 </module>

@@ -29,6 +29,16 @@
             <artifactId>json-path</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>io.fabric8</groupId>
+            <artifactId>spring-cloud-starter-kubernetes</artifactId>
+            <version>0.0.16</version>
+        </dependency>
+        <dependency>
+            <groupId>io.fabric8</groupId>
+            <artifactId>openshift-client</artifactId>
+            <version>1.4.10</version>
+        </dependency>
     </dependencies>
 
     <properties>
