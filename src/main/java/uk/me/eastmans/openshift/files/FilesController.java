@@ -3,6 +3,7 @@ package uk.me.eastmans.openshift.files;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -44,5 +45,20 @@ public class FilesController {
             msg = "Unable to write file " + exception.toString();
         }
         return msg;
+    }
+
+    @RequestMapping("/callon")
+    public String callOn()
+    {
+        try
+        {
+            RestTemplate client = new RestTemplate();
+            String message = client.getForObject("http://localhost:8090/dummy",String.class);
+            return "Retrieved: " + message;
+        }
+        catch (Exception e)
+        {
+            return "Unable to execute REST " + e.getMessage();
+        }
     }
 }
